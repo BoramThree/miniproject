@@ -1,19 +1,17 @@
 package com.ohgiraffers.section01.xmlconfig.controller;
 
-
 import com.ohgiraffers.section01.xmlconfig.model.dto.EmployeeDTO;
-
 import com.ohgiraffers.section01.xmlconfig.model.service.EmployeeService11;
 import com.ohgiraffers.section01.xmlconfig.view.PrintResultMoon;
 
 import java.util.List;
 
-public class EmployeeController {
+public class EmployeeMoonController {
 
     private final EmployeeService11 employeeService;
     private final PrintResultMoon printResultMoon;
 
-    public EmployeeController(){
+    public EmployeeMoonController(){
         this.employeeService = new EmployeeService11();
         this.printResultMoon = new PrintResultMoon();
     }

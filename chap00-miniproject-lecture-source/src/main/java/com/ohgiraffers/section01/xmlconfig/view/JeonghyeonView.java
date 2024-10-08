@@ -1,6 +1,6 @@
 package com.ohgiraffers.section01.xmlconfig.view;
 
-import com.ohgiraffers.section01.xmlconfig.controller.EmployeeController;
+import com.ohgiraffers.section01.xmlconfig.controller.EmployeeMoonController;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class JeonghyeonView {
 
     public static void moonplay(){
         Scanner sc = new Scanner(System.in);
-        EmployeeController employeeController = new EmployeeController();
+        EmployeeMoonController employeeController = new EmployeeMoonController();
 
         do {
             System.out.println("======================moon 메뉴 관리 시스템=============================");
