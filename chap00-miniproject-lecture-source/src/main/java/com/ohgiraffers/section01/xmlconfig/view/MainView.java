@@ -27,7 +27,7 @@ public class MainView {
                 case 2:
                     break;
 
-                case 3:
+                case 3: JeonghyeonView.moonplay();
                     break;
 
                 case 4:
