@@ -142,7 +142,7 @@ public class EmployeeDTO {
                 ", managerId='" + managerId + '\'' +
                 ", hireDate=" + hireDate +
                 ", entDate=" + entDate +
-                ", entYn='" + entYn
+                ", entYn='" + entYn +
                 '}';
     }
 }
