@@ -16,7 +16,7 @@
     </environments>
 
     <mappers>
-        <mapper resource="com/ohgiraffers/section01/xmlconfig/menu-mapper.xml"/>
+        <mapper resource="com/ohgiraffers/section01/xmlconfig/Employee-Mapper-yejin.xml"/>
     </mappers>
 
 </configuration>

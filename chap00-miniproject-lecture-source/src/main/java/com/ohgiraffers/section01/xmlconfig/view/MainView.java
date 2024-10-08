@@ -7,6 +7,7 @@ public class MainView {
     public void display(){
 
         Scanner sc = new Scanner(System.in);
+        yejinView yejin = new yejinView();
         
         do {
 
@@ -16,7 +17,7 @@ public class MainView {
             System.out.println("3. 정현님 페이지");
             System.out.println("4. 경훈님 페이지");
 
-            System.out.println("\n접속하실 페이지를 골라주세요: ");
+            System.out.print("\n접속하실 페이지를 골라주세요: ");
 
             int num = sc.nextInt();
 
@@ -25,6 +26,7 @@ public class MainView {
                     break;
 
                 case 2:
+                    yejin.yejinMainView();
                     break;
 
                 case 3: JeonghyeonView.moonplay();
