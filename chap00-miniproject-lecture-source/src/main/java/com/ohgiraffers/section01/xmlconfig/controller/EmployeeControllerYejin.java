@@ -1,6 +1,6 @@
 package com.ohgiraffers.section01.xmlconfig.controller;
 
-import com.ohgiraffers.section01.xmlconfig.model.dto.EmployeeDTO;
+import com.ohgiraffers.section01.xmlconfig.model.dto.EmployeeDTOYejin;
 import com.ohgiraffers.section01.xmlconfig.model.service.EmployeeServiceYejin;
 import com.ohgiraffers.section01.xmlconfig.view.PrintResultYejin;
 
@@ -19,7 +19,7 @@ public class EmployeeControllerYejin {
     public void selectYearEmp(String inputInfo){
         int inputYear = Integer.parseInt(inputInfo);
 
-        List<EmployeeDTO> employeeList =  employeeServiceYejin.selectEmployee(inputYear);
+        List<EmployeeDTOYejin> employeeList =  employeeServiceYejin.selectEmployee(inputYear);
 
         if (employeeList != null){
             printResultYejin.printEmployeeList(employeeList);

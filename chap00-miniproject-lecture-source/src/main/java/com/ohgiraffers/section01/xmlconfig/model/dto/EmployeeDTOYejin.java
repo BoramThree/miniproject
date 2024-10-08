@@ -7,9 +7,9 @@ public class EmployeeDTOYejin {
     private Integer salary;
     private Double bonus;
 
-    public EmployeeDTO(){}
+    public EmployeeDTOYejin(){}
 
-    public EmployeeDTO(String empId, String empName, String empNo, Integer salary, Double bonus) {
+    public EmployeeDTOYejin(String empId, String empName, String empNo, Integer salary, Double bonus) {
         this.empId = empId;
         this.empName = empName;
         this.empNo = empNo;
