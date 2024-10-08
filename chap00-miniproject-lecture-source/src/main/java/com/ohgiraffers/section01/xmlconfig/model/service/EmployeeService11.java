@@ -8,11 +8,11 @@ import java.util.List;
 
 import static com.ohgiraffers.section01.xmlconfig.common.Template.getSqlSession;
 
-public class EmployeeService {
+public class EmployeeService11 {
 
     private final EmployeeDAO employeeDAO;
 
-    public EmployeeService(){
+    public EmployeeService11(){
         this.employeeDAO = new EmployeeDAO();
     }
 
