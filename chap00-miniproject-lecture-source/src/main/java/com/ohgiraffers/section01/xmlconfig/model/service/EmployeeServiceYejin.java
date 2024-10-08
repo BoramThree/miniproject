@@ -1,7 +1,7 @@
 package com.ohgiraffers.section01.xmlconfig.model.service;
 
 import com.ohgiraffers.section01.xmlconfig.model.dao.EmployeeDAOYejin;
-import com.ohgiraffers.section01.xmlconfig.model.dto.EmployeeDTO;
+import com.ohgiraffers.section01.xmlconfig.model.dto.EmployeeDTOYejin;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;
@@ -16,10 +16,10 @@ public class EmployeeServiceYejin {
         this.employeeDAOYejin = new  EmployeeDAOYejin();
     }
 
-    public List<EmployeeDTO> selectEmployee(int inputYear) {
+    public List<EmployeeDTOYejin> selectEmployee(int inputYear) {
         SqlSession sqlSession = getSqlSession();
 
-         List<EmployeeDTO> employeeList = employeeDAOYejin.selectEmployeeSalary(sqlSession, inputYear);
+         List<EmployeeDTOYejin> employeeList = employeeDAOYejin.selectEmployeeSalary(sqlSession, inputYear);
 
          return employeeList;
     }
