@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="EmployeeMapperNamKyu">
+    <resultMap id="empResultMap" type="com.ohgiraffers.section01.xmlconfig.model.dto.EmployeeDTONamKyu">
+        <id property="emp_Id" column="EMP_ID"/>
+        <result property="emp_Name" column="EMP_NAME"/>
+        <result property="email" column="EMAIL"/>
+        <result property="phone" column="PHONE"/>
+        <result property="deat_Code" column="DEAT_CODE"/>
+        <result property="job_Code" column="JOB_CODE"/>
+        <result property="sal_Level" column="SAL_LEVEL"/>
+        <result property="salary" column="SALARY"/>
+        <result property="bonus" column="BONUS"/>
+        <result property="manager_Id" column="MAMAGER_ID"/>
+        <result property="hire_Date" column="HIRE_DATE"/>
+        <result property="ent_Date" column="ENT_DATE"/>
+        <result property="ent_Yn" column="ENT_YN"/>
+    </resultMap>
+    <select id="selectAllEmployee" resultMap="employeeResultMap">
+        SELECT
+        *
+        FROM
+        EMPLOYEE
+    </select>
+</mapper>
