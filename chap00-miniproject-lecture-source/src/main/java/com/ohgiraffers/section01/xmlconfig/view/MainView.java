@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.xmlconfig.view;
 
+import com.ohgiraffers.section01.xmlconfig.controller.EmployeeController;
+
 import java.util.Scanner;
 
 public class MainView {
@@ -7,7 +9,8 @@ public class MainView {
     public void display(){
 
         Scanner sc = new Scanner(System.in);
-        
+        EmployeeController employeeController = new EmployeeController();
+
         do {
 
             System.out.println("===================페이지 연결==================");
@@ -30,7 +33,7 @@ public class MainView {
                 case 3:
                     break;
 
-                case 4:
+                case 4: employeeController.selectAllEmployee();
                     break;
             }
 
