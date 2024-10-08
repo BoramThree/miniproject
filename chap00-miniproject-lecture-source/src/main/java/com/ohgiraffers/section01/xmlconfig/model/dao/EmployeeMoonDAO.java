@@ -5,11 +5,12 @@ import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;
 
-public class EmployeeDAO {
+public class EmployeeMoonDAO {
 
     public List<EmployeeDTO> selectAllEmployee(SqlSession sqlSession) {
 
-    return sqlSession.selectList("EmployeeMapper.selectAllEmployee");
+        return sqlSession.selectList("EmployeeMapper.selectAllEmployee");
 
     }
+
 }

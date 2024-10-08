@@ -1,6 +1,6 @@
 package com.ohgiraffers.section01.xmlconfig.model.service;
 
-import com.ohgiraffers.section01.xmlconfig.model.dao.EmployeeDAO;
+import com.ohgiraffers.section01.xmlconfig.model.dao.EmployeeMoonDAO;
 import com.ohgiraffers.section01.xmlconfig.model.dto.EmployeeDTO;
 import org.apache.ibatis.session.SqlSession;
 
@@ -10,10 +10,10 @@ import static com.ohgiraffers.section01.xmlconfig.common.Template.getSqlSession;
 
 public class EmployeeService11 {
 
-    private final EmployeeDAO employeeDAO;
+    private final EmployeeMoonDAO employeeDAO;
 
     public EmployeeService11(){
-        this.employeeDAO = new EmployeeDAO();
+        this.employeeDAO = new EmployeeMoonDAO();
     }
 
     public List<EmployeeDTO> selectAllEmployee(){
