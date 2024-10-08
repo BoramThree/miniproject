@@ -6,13 +6,6 @@ public class EmployeeDTO {
     private String empId;
     private String empName;
     private String empNo;
-    private Integer salary;
-    private Double bonus;
-
-<<<<<<< HEAD
-    private String empId;
-    private String empName;
-    private String empNo;
     private String email;
     private String phone;
     private String deptCode;
@@ -42,16 +35,6 @@ public class EmployeeDTO {
         this.hireDate = hireDate;
         this.entDate = entDate;
         this.entYn = entYn;
-=======
-    public EmployeeDTO(){}
-
-    public EmployeeDTO(String empId, String empName, String empNo, Integer salary, Double bonus) {
-        this.empId = empId;
-        this.empName = empName;
-        this.empNo = empNo;
-        this.salary = salary;
-        this.bonus = bonus;
->>>>>>> 8bed7e07d0bcb18878f60e8950edb510ed87f711
     }
 
     public String getEmpId() {
@@ -78,7 +61,6 @@ public class EmployeeDTO {
         this.empNo = empNo;
     }
 
-<<<<<<< HEAD
     public String getEmail() {
         return email;
     }
@@ -167,31 +149,12 @@ public class EmployeeDTO {
         this.entYn = entYn;
     }
 
-=======
-    public Integer getSalary() {
-        return salary;
-    }
-
-    public void setSalary(Integer salary) {
-        this.salary = salary;
-    }
-
-    public Double getBonus() {
-        return bonus;
-    }
-
-    public void setBonus(Double bonus) {
-        this.bonus = bonus;
-    }
-
->>>>>>> 8bed7e07d0bcb18878f60e8950edb510ed87f711
     @Override
     public String toString() {
         return "EmployeeDTO{" +
                 "empId='" + empId + '\'' +
                 ", empName='" + empName + '\'' +
                 ", empNo='" + empNo + '\'' +
-<<<<<<< HEAD
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
                 ", deptCode='" + deptCode + '\'' +
@@ -203,10 +166,6 @@ public class EmployeeDTO {
                 ", hireDate=" + hireDate +
                 ", entDate=" + entDate +
                 ", entYn='" + entYn + '\'' +
-=======
-                ", salary=" + salary +
-                ", bonus=" + bonus +
->>>>>>> 8bed7e07d0bcb18878f60e8950edb510ed87f711
                 '}';
     }
 }
