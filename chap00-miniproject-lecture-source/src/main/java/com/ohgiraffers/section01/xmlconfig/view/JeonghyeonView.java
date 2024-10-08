@@ -17,6 +17,7 @@ public class JeonghyeonView {
             System.out.println("=========================================================================");
             System.out.print("실행할 메뉴를 선택해주세요 : ");
             int no = sc.nextInt();
+            //
 
         switch (no){
             case 1:
