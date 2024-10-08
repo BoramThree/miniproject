@@ -12,7 +12,7 @@ public class Template {
 
     private static SqlSessionFactory sqlSessionFactory;
 
-    public static SqlSession getSqlSeeeion(){
+    public static SqlSession getSqlSession(){
 
         if(sqlSessionFactory == null){
 
