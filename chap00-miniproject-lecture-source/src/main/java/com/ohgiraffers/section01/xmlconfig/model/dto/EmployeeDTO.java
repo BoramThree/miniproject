@@ -38,30 +38,6 @@ public class EmployeeDTO {
         this.entYn = entYn;
     }
 
-    public String getEmpId() {
-        return empId;
-    }
-
-    public void setEmpId(String empId) {
-        this.empId = empId;
-    }
-
-    public String getEmpName() {
-        return empName;
-    }
-
-    public void setEmpName(String empName) {
-        this.empName = empName;
-    }
-
-    public String getEmpNo() {
-        return empNo;
-    }
-
-    public void setEmpNo(String empNo) {
-        this.empNo = empNo;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -149,7 +125,7 @@ public class EmployeeDTO {
     public void setEntYn(String entYn) {
         this.entYn = entYn;
     }
-
+   
     @Override
     public String toString() {
         return "EmployeeDTO{" +
@@ -166,7 +142,7 @@ public class EmployeeDTO {
                 ", managerId='" + managerId + '\'' +
                 ", hireDate=" + hireDate +
                 ", entDate=" + entDate +
-                ", entYn='" + entYn + '\'' +
+                ", entYn='" + entYn
                 '}';
     }
 }
