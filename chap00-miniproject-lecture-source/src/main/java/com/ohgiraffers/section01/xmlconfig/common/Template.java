@@ -16,7 +16,7 @@ public class Template {
 
         if(sqlSessionFactory == null){
 
-            String resource = "com/ohgiraffers/section01/xmlconfig/mybatis-config.xml";
+            String resource = "com/ohgiraffers/section01/xmlconfig/mybatis-configMoon.xml";
 
                 try {
                     InputStream inputStream = Resources.getResourceAsStream(resource);
