@@ -16,8 +16,11 @@ public class EmployeeServiceNamKyu {
         this.employeeDAONamKyu = new EmployeeDAONamKyu();
 
     }
+
     public List<EmployeeDTONamKyu> selectAllEmployee() {
         SqlSession sqlSession = getSqlSession();
 
         List<EmployeeDTONamKyu> employeeList = employeeDAONamKyu.selectAllEmployee(sqlSession);
+        return employeeList;
+    }
 }
